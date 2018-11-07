@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function white() {
+            document.getElementById("background").style.backgroundImage = "url(images/oceansky.jpg)";
+            document.getElementById("moonsun").src = "images/sunshine.jpg";
+            document.getElementById("linkbox").style.backgroundColor = "yellowgreen";
+            document.getElementById("asideh3").style.backgroundColor = "orangered";
+
+        }
+function dark() {
+    document.getElementById("background").style.backgroundImage = "url(images/space.jpg)";
+    document.getElementById("moonsun").src = "images/moonlight.jpg";
+    document.getElementById("linkbox").style.backgroundColor = "rgb(31, 23, 23)";
+    document.getElementById("asideh3").style.backgroundColor = "darkslategray";
+
+}
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="background">
+<div class="wrapper">
+<header>
+    <div id="logo">
+        My Website
+    </div>
+    <nav>
+    <a class="navlink1" href="abcdefg.html">Home</a>
+    <a class="navlink2" href="about.html">About</a>
+    </nav>
+</header>
+<main>
+    <section class="sectionfont">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes
+            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
+            pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
+                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+                    aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
+                            pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    Aenean commodo ligula eget dolor. Aenean massa.
+                                    Cum sociis natoque penatibus et magnis dis parturient montes
+                                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+                                    aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+        
+        </section>
+    </section>
+    <aside id="linkbox">
+        <h3>Links</h3>
+        <ul>
+                <li>
+                <a href="">2nd website</a>
+                </li>
+                <li>
+                    <a href="">3rd website</a>
+                </li>
+            </ul>
+    </aside>
+</main>
+<footer>
+        <button class="night" type="button" onclick="dark()">Night</button>
+        <button class="day" type="button" onclick="white()">Day</button>
+</footer>
+</div>
+</body>
+</html>
